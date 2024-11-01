@@ -1,0 +1,239 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+   }
+   
+   body {
+     background-color: rgb(247,247,247);
+     color: black;
+     margin: 0;
+     font-family: "Comic Neue", cursive;
+   }
+   
+   .comic-neue-regular {
+     font-family: "Comic Neue", cursive;
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+   /* HEADER */
+   
+   header {
+     width: 100%;
+     height: 70px;
+     background-color: rgb(215,57,137);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     z-index: 99;
+     
+   }
+   
+   #logo {
+     width: max(120px, 7vw);
+     height: 50px;
+     margin: 12px 0 auto 7px;
+   }
+   
+   nav {
+     width: 50%;
+     max-width: 500px;
+     height: 50px;
+     margin: auto 15px;
+   }
+   
+   nav > ul {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-inline-start: 0;
+     margin-block: 0;
+     height: 100%;
+   }
+   
+   nav li {
+     font-size: 20px;
+     padding: 5px;
+     margin: 0;
+     display: block;
+     color: rgb(245,239,130);
+   }
+   
+   nav li:hover {
+     border-bottom: 3px solid yellow;
+     cursor: pointer;
+   }
+   
+   li a {
+     color: inherit;
+     text-decoration: none;
+   }
+   
+   /* MAIN */
+   
+   main {
+     padding-top: 70px;
+     margin-bottom: 0px;
+   }
+   
+   h1 {
+     text-align: center;
+     margin-bottom: 0;
+   }
+   
+   #img-div {
+     margin: 0 auto;
+     width: 500px;
+     height: 450px;
+     text-align: center;
+   }
+   
+   #image {
+     max-width: 100%;
+     max-height: 400px;
+     height: auto;
+     margin: 20 auto;
+     display: block;
+   }
+   
+   #img-caption {
+     font-size: 20px;
+     text-align: center;
+     font-weight: bold;
+   }
+   
+   h2 {
+     font-size: 26px;
+     font-family: sans-serif;
+     color: transparent;
+   }
+   
+   section {
+     width: 90%;
+     margin: 10px auto;
+     padding-bottom: 30px;
+   }
+   
+   section > ul > li {
+     font-family: Caudex, sans-serif; 
+   }
+   
+   section > ul {
+     margin: 0;
+   }
+   
+   section h3 {
+     margin-bottom: 10px;
+     margin-top: 30px;
+   }
+   
+   /* FAMILY */
+   
+   .pink {
+     -webkit-text-fill-color: white;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: rgb(215, 57, 141);
+   }
+   
+   .family-image {
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     font-family: "michelle digital handwritten";
+     border: 1px solid black
+   
+   }
+   
+   #family .portrait {
+     width: 220px;
+     position: relative;
+   }
+   
+   #family h2 {
+     border-bottom: 4px solid rgb(220,140,176);
+   }
+   
+   #family h3 {
+     color: rgb(215, 57, 141);
+     border-bottom: 2px solid rgb(215, 57, 141);
+   }
+   
+   
+   /* FRIENDS */
+   
+   .blue {
+     -webkit-text-fill-color: white;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: rgb(60, 123, 180);
+   }
+   .friends-image {
+     max-width: (700px, 70vw);
+     border: 1px solid;
+   }
+   
+   .friends-image img {
+     width: 500px;
+     min-width: 100%;
+     margin: auto;
+     display: block;
+   }
+   
+   #friends h2 {
+     border-bottom: 4px solid rgb(60, 123, 180);
+   }
+   
+   #friends h3 {
+     color: rgb(60, 123, 180);
+     border-bottom: 2px solid rgb(60, 123, 180);
+   }
+   
+   /* SCHOOL */
+   
+   .yellow {
+     -webkit-text-fill-color: white;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: rgb(238,197,98);
+   }
+   
+   .school-image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: (700px, 70vw);
+     height: 450px;
+     background-color: white;
+     border: 1px solid;
+   }
+   
+   .school-image img {
+     width: 450px;
+     height: 400px;
+   }
+   
+   #school h2 {
+     border-bottom: 4px solid rgb(238,197,98);
+   }
+   
+   #school h3 {
+     color: rgb(238,197,98);
+     border-bottom: 2px solid rgb(238,197,98);
+   
+   }
+   
+   
+   #tribute-info {
+     margin: 0 auto 20 auto;
+     font-size: 17px;
+     padding: 5px 20px;
+     text-align: left;
+     font-weight: bold;
+   }
+   
+   #tribute-info a {
+     color: rgb(215,57,137);
+   }
+   
